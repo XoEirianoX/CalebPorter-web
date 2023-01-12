@@ -138,106 +138,8 @@ nav .menu-list li.bttn:hover a{
 
 }
 
-/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- THE MAIN BODY  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-.container{
-
-    padding-top: 190px;
-    padding-left: 100px;
-
-}
-.container .hero-text{
-
-    margin-bottom: 40px;
-
-}
-.container .hero-text h1{
-
-    color: white;
-    font-size: 47px;
-    font-weight: 900;
-    line-height: 1.2;
-    margin: 20px 0px 20px;
-
-}
-span{
-    color: #ffc2d5;
-}
-.container .hero-text h3{
-
-    color: white;
-    font-weight: 400;
-    font-size: 17px;
-
-}
-.container .hero-text p{
-
-    width: 440px;
-    max-width: 100%;
-    color: white;
-    font-size: 15px;
-    line-height: 1.5;
-    margin-bottom: 30px;
-
-}
-/* Social Medi Icons */
-.Socials a{
-
-    width: 37px;
-    height: 37px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    color: white;
-    cursor: pointer;
-    margin-right: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-bottom: 35px;
-
-}
-.Socials a:hover{
-
-    transform: scale(1.1);
-    background: #ffc2d5;
-    transition: .6s;
-
-}
-.container .hero-text button{
-
-    color: white;
-    background: #ffc2d5;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    padding: 8px 30px;
-    border: 2px solid #ffc2d5;
-    border-radius: 30px;
-    cursor: pointer;
-
-}
-.container .hero-text button:hover{
-
-    background: transparent;
-    border: 2px solid #ffc2d5;
-    color: #ffc2d5;
-    transition: .4s;
-
-}
-.bottom{
-
-    margin-top: 243px;
-    padding: 40px;
-
-}
-.bottom p{
-
-    color: white;
-    letter-spacing: 1px;
-    font-size: 10px;
-
-}
-@media screen and (max-width: 930px){
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- THE NAV MENU  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+@media screen and (max-width: 1250px){
 
     nav .menu{
 
@@ -317,5 +219,30 @@ span{
         right: 0;
 
     }
+    .cityFRAME{
+
+        display: relative;
+        right: 10%;
+        z-index: 1;
+
+    }
+    .cityFRAME iframe{
+
+        width: 400px;
+
+    }
+
+}
+.cityFRAME{
+
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 1%;
+
+}
+.cityFRAME iframe{
+
+    border: none;
+    border-radius: 12px;
 
 }
